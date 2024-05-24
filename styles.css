@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 .contents{
     display: flex;
     flex-direction: column;
@@ -6,6 +12,7 @@
 }
 
 ul{
+    font-size: 24px;
     display: flex;
     gap: 8px;
     list-style:none;
@@ -14,16 +21,112 @@ ul{
 .header{
     background-color: #1f2937;
     display: flex;
+    flex-direction: column;
+    
 }
 
 .upperheader{
+
     color: #f9faf8;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 16px;;
+    margin: 0 150px;
+    margin-top:15px;
+}
+
+.lowerheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    margin:0px 150px;
+    padding: 0px 0px;
+    flex-wrap:wrap;
 }
 
 .hlogo{
     font-size: 24px;
+    flex-wrap:wrap;
+    font-weight: bold;
+}
+
+.hhero{
+    max-width: 300px;
+    margin: 100px 0;
+}
+
+.htitle{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.htext{
+    color: e5e7eb;
+    font-size: 18px;
+    flex-wrap:wrap;
+    margin-bottom: 16px;
+}
+
+.button{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.himg{
+    
+    display: flex;
+    background-color: gray;
+    height: 200px;
+    width: 500px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.infotext{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.blocklist{
+    display: flex;
+    gap:0 25px;
+    margin-bottom: 200px;
+}
+
+.blockin{
+    display: flex;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border: 10px solid lightblue;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100px;
+}
+.blocktext{
+    display: flex;
+    justify-content: center;
 }
